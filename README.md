@@ -29,6 +29,23 @@ It may include:
 - related domains and subdomains
 - known patterns relevant to training simulations
 
+## adding the list into uBlock Origin
+`uBlock Origin` is an extension for the Firefox browser.
+
+How to add this list to keep the newest URLs list:
+(see https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web )
+
+- Go to the extensions list in Firefox (`about:addons`)
+- click on the 3 dots menu at the end of the `uBlock Origin`
+- chose: settings
+- go to the `filter lists` tab
+- scroll down till the end to 'import'
+- add `https://raw.githubusercontent.com/math-GH/anti-proofpoint-avoid-phishing-attacks-URLs-list/refs/heads/main/list` there
+- save the settings
+- the list should be listed now above the `import` field (`own filter lists`)
+
+This list should be updated regularly automatically by the extension itself.
+
 ## Contributing
 
 Contributions are welcome and appreciated.
