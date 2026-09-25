@@ -49,4 +49,4 @@ It is **not** intended to bypass, interfere with, or weaken organizational secur
 
 ## License
 
-MIT license. See `LICENSE.md`
+MIT license. See `LICENSE`
